@@ -11,7 +11,7 @@
 
 	<br><br>
 		A wealth of knowledge and talent! <br>
-		<img src="alex.jpg" height = 300 width = 300>
+		<img src="alex.jpg" height = 500 width = 300>
 	<br><br>
 		Hire us for optimal solution! <br>
 		<img src = "yang.jpg" height = 300 width = 180>
