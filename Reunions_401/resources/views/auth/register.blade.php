@@ -40,10 +40,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="class_year" class="col-md-4 col-form-label text-md-right">{{ __('Class year') }}</label>
+                            <label for="class_year" class="col-md-4 col-form-label text-md-right">{{ __('Class Year') }}</label>
 
                             <div class="col-md-6">
-                                <input id="class_year" type="numeric" class="form-control{{ $errors->has('class_year') ? ' is-invalid' : '' }}" name="class_year" value="{{ old('class_year') }}" required>
+                                <input id="class_year" type="numeric" pattern = "[0-9]{4}" class="form-control{{ $errors->has('class_year') ? ' is-invalid' : '' }}" name="class_year" value="{{ old('class_year') }}" required>
 
                                 @if ($errors->has('class_year'))
                                     <span class="invalid-feedback" role="alert">
@@ -54,10 +54,11 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="phone" class="col-md-4 col-form-label text-md-right">{{ __('Phone') }}</label>
+                            <label for="phone" class="col-md-4 col-form-label text-md-right">{{ __('Phone (XXX-XXX-XXXX)') }}</label>
 
                             <div class="col-md-6">
-                                <input id="phone" type="numeric" class="form-control{{ $errors->has('phone') ? ' is-invalid' : '' }}" name="phone" value="{{ old('phone') }}" required>
+                            
+                                <input id="phone" type="tel"  pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control{{ $errors->has('phone') ? ' is-invalid' : '' }}" name="phone" value="{{ old('phone') }}" required>
 
                                 @if ($errors->has('phone'))
                                     <span class="invalid-feedback" role="alert">
@@ -84,7 +85,7 @@
                             <label for="zipcode" class="col-md-4 col-form-label text-md-right">{{ __('Origin Zipcode') }}</label>
 
                             <div class="col-md-6">
-                                <input id="zipcode" type="numeric" class="form-control{{ $errors->has('zipcode') ? ' is-invalid' : '' }}" name="zipcode" value="{{ old('zipcode') }}" required autofocus>
+                                <input id="zipcode" type="numeric" pattern = "[0-9]{5} "class="form-control{{ $errors->has('zipcode') ? ' is-invalid' : '' }}" name="zipcode" value="{{ old('zipcode') }}" required autofocus>
 
                                 @if ($errors->has('zipcode'))
                                     <span class="invalid-feedback" role="alert">
@@ -197,8 +198,8 @@
 
                             <div class="col-md-6">
                                 <select id="pref_service" type="text" class="form-control{{ $errors->has('pref_service') ? ' is-invalid' : '' }}" name="pref_service" value="{{ old('pref_service') }}" required autofocus>
-                                    <option value="rideshare" selected>Share a Ride!</option>
-                                    <option value="uber">Uber</option>
+                                    <option value="rideshare" selected>Carpool</option>
+                                    <option value="uber">Uber/Lyft</option>
                                 </select>
 
                                 @if ($errors->has('pref_service'))
