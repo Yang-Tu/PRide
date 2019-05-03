@@ -56,14 +56,16 @@ class RegisterController extends Controller
         return Validator::make($data, [
             'fname' => ['required', 'string', 'max:255'],
             'lname' => ['required', 'string', 'max:255'],
-            'age' => ['REQUIRED', 'integer', 'max:120'],
+            'class_year' => ['required', 'integer', 'min:1920'],
             'phone' => ['required','integer', 'min: 1000000000', 'max:9999999999'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'Origin' => ['required', 'string', 'max:255'],
-            'Destination' => ['required', 'string', 'max:255'],
+            'zipcode' => ['required', 'integer', 'min:00000', 'max:99999'],
+            'airport' => ['required', 'string'], 
             'd_date' => ['required', 'string'], 
             'd_time'=>  ['required', 'string'], 
-            'seats' => ['required', 'min: 0', 'max: 20'],
+            'seats' => ['required', 'string'],
+            'pref_service' => ['required', 'string', 'max: 255'],
+            'password' => ['required', 'string', 'min:6', 'confirmed'],
             'password' => ['required', 'string', 'min:6', 'confirmed'],
         ]);
     }
@@ -79,15 +81,17 @@ class RegisterController extends Controller
         return User::create([
             'fname' => $data['fname'],
             'lname' => $data['lname'],
-            'age' => $data['age'],
+            'class_year' => $data['class_year'],
             'phone' => $data['phone'],
             'email' => $data['email'],
-            'Origin' => $data['Origin'],
-            'Destination' => $data['Destination'],
+            'zipcode' => $data['zipcode'],
+            'airport' => $data['airport'],
             'd_date' => $data['d_date'], 
             'd_time'=> $data['d_time'],  
-            'seats'=> $data['seats'],  
+            'seats'=> (int)$data['seats'],  
             'password' => Hash::make($data['password']),
+            'pref_service' => $data['pref_service'],
+            'eating_club' => $data['eating_club'],
         ]);
     }
 }

@@ -18,15 +18,19 @@ class CreateUsersTable extends Migration
             $table->bigIncrements('id');
             $table->string('fname');
             $table->string('lname');
-            $table->integer('age');
+            $table->integer('class_year');
             $table->integer('phone');
             $table->string('email');
-            $table->string('Origin');
-            $table->string('Destination');
-            $table->date('d_date');
+            $table->integer('zipcode');
+            $table->string('airport');
+            $table->string('d_date');
             $table->time('d_time');
             $table->integer('seats');
             $table->string('password');
+            $table->string('pref_service');
+            $table->string('eating_club');
+            $table->integer('group');
+            $table->integer('spaces_left');
             $table->string('updated_at');
             $table->string('created_at');
 
