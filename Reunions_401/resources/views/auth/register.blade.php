@@ -54,11 +54,11 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="phone" class="col-md-4 col-form-label text-md-right">{{ __('Phone (XXX-XXX-XXXX)') }}</label>
+                            <label for="phone" class="col-md-4 col-form-label text-md-right">{{ __('Phone XXXXXXXXXX') }}</label>
 
                             <div class="col-md-6">
                             
-                                <input id="phone" type="tel"  pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control{{ $errors->has('phone') ? ' is-invalid' : '' }}" name="phone" value="{{ old('phone') }}" required>
+                                <input id="phone" type="tel"  pattern = "[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control{{ $errors->has('phone') ? ' is-invalid' : '' }}" name="phone" value="{{ old('phone') }}" required>
 
                                 @if ($errors->has('phone'))
                                     <span class="invalid-feedback" role="alert">
@@ -85,7 +85,7 @@
                             <label for="zipcode" class="col-md-4 col-form-label text-md-right">{{ __('Origin Zipcode') }}</label>
 
                             <div class="col-md-6">
-                                <input id="zipcode" type="numeric" pattern = "[0-9]{5} "class="form-control{{ $errors->has('zipcode') ? ' is-invalid' : '' }}" name="zipcode" value="{{ old('zipcode') }}" required autofocus>
+                                <input id="zipcode" type="numeric" pattern = "[0-9]{5}"class="form-control{{ $errors->has('zipcode') ? ' is-invalid' : '' }}" name="zipcode" value="{{ old('zipcode') }}" required autofocus>
 
                                 @if ($errors->has('zipcode'))
                                     <span class="invalid-feedback" role="alert">

@@ -23,17 +23,21 @@
       <br>
       <p class = "para">
     Name: {{$user['fname']}} {{$user['lname']}} <br><br>
-    Age: {{$user['age']}} <br>
+    Class Year: {{$user['class_year']}} <br>
     Phone: {{$user['phone']}} <br>
-    Origin: {{$user['Origin']}}<br>
-    Destination: {{$user['Destination']}}<br>  
     Departure Date: {{$user['d_date']}} <br>
     Departure Time: {{$user['d_time']}} <br>
     Seats Available: {{$user['seats']}} <br>
     Email: {{$user['email']}}<br>
-    Password: {{$user['password']}}<br>
+          <br>
 
-     </p><br>
+          <br>
+          Here's your approximate route and estimated travel time:
+          <iframe width="100%" height="100%" frameborder="0" style="border:0"
+                  src="https://www.google.com/maps/embed/v1/directions?origin={{$user['zipcode']}}&destination=Princeton%20University&key=AIzaSyCa_nZFbiRNWjCrIMhdnSdNu-ouaOETZRA" allowfullscreen></iframe>
+
+      </p><br>
+
 
    <a href="/">Return home</a>
    

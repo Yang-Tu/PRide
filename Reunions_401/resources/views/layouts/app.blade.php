@@ -24,10 +24,10 @@
 <body style="font-family: Montserrat! important;"> 
         <header>
             <center>
-                <br><br>
+                <br><br><br><br>
                 
-                <img src='images/tigerTrips.png' height = 300 width = 300/>
-                <br><br><br>
+                <img src='images/tigerTrips.png' height = 200 width = 200/>
+                <br><br><br><br><br>
             </center>
         </header>
         <nav class="navbar navbar-expand-md navbar-laravel">
