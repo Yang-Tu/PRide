@@ -200,6 +200,7 @@
                                 <select id="pref_service" type="text" class="form-control{{ $errors->has('pref_service') ? ' is-invalid' : '' }}" name="pref_service" value="{{ old('pref_service') }}" required autofocus>
                                     <option value="rideshare" selected>Carpool</option>
                                     <option value="uber">Uber/Lyft</option>
+                                    <option value="uber">Party Bus</option>
                                 </select>
 
                                 @if ($errors->has('pref_service'))
