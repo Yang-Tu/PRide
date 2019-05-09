@@ -8,6 +8,11 @@
 		Carpool
   		<div class = "page_header_h3">Wanna ride in style? Cars are good. People are good too.</div>
 	</div>
+	<div>
+		<p>
+			Select the “Carpool” option when signing up to share a ride with a fellow event attendee. If you are registering as a carpool driver, please also fill out the “Seats Available” field to let us know how many people to match you with. The average American vehicle emits about 404 grams of CO2 per mile traveled.  Taking one car off the road significantly improves the environmental impact of this event!
+		</p>
+	</div>
 	<div class = "page_header">
 		Uber/Lyft
   		<div class = "page_header_h3">Coming from the airport? We've got you!</div>
