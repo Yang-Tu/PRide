@@ -14,38 +14,33 @@ var acc = document.getElementsByClassName("accordion");
             });
         }
 
+// Set the date we're counting down to
+var countDownDate = new Date("May 30, 2019 00:30:00").getTime();
 
+// Update the count down every 1 second
+var x = setInterval(function() {
 
-function myFunctionDrop() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
+  // Get todays date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + " days <tab2><tab2>" + hours + " hours <tab2><tab2>"
+  + minutes + " minutes <tab2><tab2>" + seconds + " seconds";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
   }
-}
+}, 1000);
 
-var slideIndex = 0;
-			showSlides();
 
-			function showSlides() {
-			  var i;
-			  var slides = document.getElementsByClassName("mySlides");
-			  var dots = document.getElementsByClassName("dot");
-			  for (i = 0; i < slides.length; i++) {
-			    slides[i].style.display = "none";  
-			  }
-			  slideIndex++;
-			  if (slideIndex > slides.length) {slideIndex = 1}    
-			  for (i = 0; i < dots.length; i++) {
-			    dots[i].className = dots[i].className.replace(" active", "");
-			  }
-			  slides[slideIndex-1].style.display = "block";  
-			  dots[slideIndex-1].className += " active";
-			  setTimeout(showSlides, 2500); // Change image every 2 seconds
-			}

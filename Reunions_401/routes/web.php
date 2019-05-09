@@ -20,12 +20,34 @@ Route::get('user/{id}', 'UserController@show');
 Route::get('/method', function () {
     return view('method');
 });
-Route::get('/about', function () {
-    return view('about');
+Route::get('/team', function () {
+    return view('about/team');
 });
+
+Route::get('/values', function () {
+    return view('about/values');
+});
+
 Route::get('/business', function () {
     return view('business');
 });
+
+Route::get('/carpool', function () {
+    return view('/services/carpool');
+});
+
+Route::get('/rideshare', function () {
+    return view('/services/rideshare');
+});
+
+Route::get('/bus', function () {
+    return view('/services/bus');
+});
+
+Route::get('/last-min', function () {
+    return view('/services/last-min');
+});
+
 
 Auth::routes();
 

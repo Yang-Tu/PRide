@@ -1,11 +1,10 @@
 @extends('layouts.app')
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-
+<div class="container mt-5 mb-6 px-lg-5">
+    <div class="row justify-content-center px-lg-5">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
+            <div class="card mt-5 mb-5">
+                <div class="card-header"><h2> {{$user['fname']}}'s Dashboard</h2></div>
 
                 <div class="card-body">
        
@@ -15,10 +14,9 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <p> You are logged in! </p>
 
                     <html>
-        <p> Welcome to your page! </p>
 
       <br>
       <p class = "para">

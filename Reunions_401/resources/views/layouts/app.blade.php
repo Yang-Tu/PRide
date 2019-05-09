@@ -16,54 +16,58 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body style="font-family: Montserrat! important;"> 
-        <header>
-            <center>
-                <br><br><br><br>
-                
-                <img src='images/tigerTrips.png' height = 200 width = 200/>
-                <br><br><br><br><br>
-            </center>
-        </header>
-        <nav class="navbar navbar-expand-md navbar-laravel">
-          <ul class="navbar-nav mr-auto">
-        <li class="nav-item ">
-             <a class="nav-link" href="/">Home</a>
-        </li>
+<body> 
+        
+        <nav class="navbar navbar-expand-md navbar-laravel bg-light fixed-top">
+    
+
+        <ul class="navbar-nav mr-auto">
+             <a class="navbar-brand" href="/">
+            <img src="/icons/tigerTrips.png" height = 30>
+            <tab2></tab2>TigerTrips
+        </a>
+    </ul>
+ 
+          <!-- Authentication Links -->
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item dropdown">
+            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                   Services <span class="caret"></span>
+                                </a>
+            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/carpool"> Carpool Connect</a>
+              <a class="dropdown-item" href="/rideshare"> Uber/Lyft Connect</a>
+              <a class="dropdown-item" href="/bus"> Party Bus Rental </a>
+              <a class="dropdown-item" href="/last-min"> Last Minute Matching </a>
+            </div>
+          </li>
+
+          <li class="nav-item ">
+             <a class="nav-link" href="/method">Method</a>
+          </li>
           
           <li class="nav-item dropdown">
             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                    About <span class="caret"></span>
                                 </a>
             <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/about"> The Team </a>
-              <a class="dropdown-item" href="/about"> What is Reunions? </a>
+              <a class="dropdown-item" href="/team"> The Team </a>
+              <a class="dropdown-item" href="/values"> Our Values </a>
             </div>
           </li>
-
-         <li class="nav-item ">
-             <a class="nav-link" href="/method">Method</a>
-        </li>
         
         <li class="nav-item">
-              <a class="nav-link" href="/business">Why Us?</a>
+              <a class="nav-link" href="/business">Hire Us</a>
         </li>
-
-        
-        </ul>
-
-                            <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                        <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
+                                <a class="nav-link ml-md-5" href="{{ route('login') }}">{{ __('Login') }}</a>
                             @if (Route::has('register'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
@@ -71,7 +75,7 @@
                             @endif
                         @else
                             <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle ml-md-5" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                    Welcome {{ Auth::user()-> fname }}! <span class="caret"></span>
                                 </a>
 
@@ -94,21 +98,23 @@
                                 </div>
                             </li>
                         @endguest
-                    </ul>
 
+        
+        </ul>
+
+            
         </nav>
 
 
             <center>
             @yield('content')
-            @guest
-                @else
-                  Welcome {{ Auth::user()->fname }}! <br>
-                    Click on your name in the navigation bar to logout/go to user-page.
-                                          
-                @endguest
         </center>
-        </main>
+        <div class= "footer">
+
+            <p>© 2019-2019 HandyRides inc.</p> 
+            <p> Follow us! </p>
+        </div>
+
  
 
 </body>
