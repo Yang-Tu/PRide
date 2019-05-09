@@ -17,7 +17,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-	  <img src="/temp/slide_temp1.jpg" style = "opacity:.3;" width = 100% height = 500px>
+	  <img src="/Reunions_Splash/1.jpg" style = "opacity:.3;" width = 100% height = 500px>
 	  <div class="carousel-caption d-none d-md-block text-left" style= "color: #000000!important;">
 	    	<h2> This is slide 1 </h2>
 	    	<p>Random thoughts about something and space and time and other things that are relevant to this</p>
@@ -26,7 +26,7 @@
 	</div>
      
     <div class="carousel-item">
-      <img src="/temp/slide_temp2.jpg" style = "opacity:.3;" width = 100% height = 500px>
+      <img src="/Reunions_Splash/4.jpg" style = "opacity:.3;" width = 100% height = 500px>
 	  <div class="carousel-caption d-none d-md-block" style= "color: #000000!important;">
 	    	<h2> This is slide 2 </h2>
 	    	<p>Random thoughts about something and space and time and other things that are relevant to this</p>
@@ -34,7 +34,7 @@
 	  		</div>
     </div>
     <div class="carousel-item">
-      <img src="/temp/slide_temp3.jpg" style = "opacity:.3;" width = 100% height = 500px>
+      <img src="/Reunions_Splash/5.jpg" style = "opacity:.3;" width = 100% height = 500px>
 	  <div class="carousel-caption d-none d-md-block text-right" style= "color: #000000!important;">
 	    	<h2> This is slide 3 </h2>
 	    	<p>Random thoughts about something and space and time and other things that are relevant to this</p>

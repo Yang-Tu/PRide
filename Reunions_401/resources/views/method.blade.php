@@ -13,7 +13,7 @@
 
 	      <div class="row align-items-center justify-content-center mb-5">
 	        <div class="col-sm-4">
-	          <img src = "/jokes/alex4.jpg" width = 100%>
+	          <img src = "/icons/method1.png" width = 100%>
 	        </div>
 	        <div class="col-sm-6">
 	          <h2> Step 1: Sign Up </h2>
@@ -23,7 +23,7 @@
 
 	    <div class="row align-items-center justify-content-center mb-5">
 	        <div class="col-sm-4">	      
-	          <img src = "/jokes/alex4.jpg" width = 100%>
+	          <img src = "/icons/method2.png" width = 100%>
 	        </div>
 	       <div class="col-sm-6">
 	          <h2> Step 2: Matching Algorithm </h2>
@@ -33,7 +33,7 @@
 
 	    <div class="row align-items-center justify-content-center mb-5">
 	        <div class="col-sm-4">
- 				<img src = "/jokes/alex4.jpg" width = 100%>
+ 				<img src = "/icons/method3.png"width = 100%>
 	        </div>
 	        <div class="col-sm-6">
 	          <h2> Step 3: You've got a match! </h2>
@@ -44,7 +44,7 @@
 	    <div class="row align-items-center justify-content-center mb-5">
 	        <div class="col-sm-4">
 	        		      
-	          <img src = "/jokes/alex4.jpg" width = 100%>
+	          <img src = "/icons/method4.png" width = 100%>
 	        </div>
 	        <div class="col-sm-6">
 	          <h2> Step 4: Ride in style. </h2>
