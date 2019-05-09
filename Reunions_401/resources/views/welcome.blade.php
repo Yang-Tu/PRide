@@ -4,7 +4,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <body>
-<img src = "/temp/reunions_benji.png" style = "opacity:.7;" width = 100%>
+<img src = "/temp/reunions_benji.png" width = 100%>
 <div class = "spacer">
 	<h2> Countdown to Reunions! (May 30, 2019) </h2>
 	<p id="demo" style="font-size:20px!important;"></p> 

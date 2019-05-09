@@ -58,8 +58,8 @@
 		<div class="row px-lg-5 mt-5 mb-5 align-items-center"  style = "text-align:left">
 		<div class="col-6 col-md-3 px-lg-3" style = "text-align:right"><img src = "/temp/temp.png" height = 150px></div>
 	  	<div class="col-12 col-sm-6 col-md-9 px-lg-5"><h2>Prof. Kornhauser</h2>
-	  		<h3>Muse</h3>
-	  		<p>haNdy RiDes</p>
+	  		<h3>Faculty Mentor</h3>
+	  		<p>Alain Kornhauser is Professor of Operations Research & Financial Engineering at Princeton University. He serves as Director of the Transportation Program where he continues his basic research in Transportation focused on the real-time operation of large fleets of driverless vehicles and on the development of Deep-Learning Neural Networks that safely drive road vehicles. He was the Faculty Leader of Princeton’s entries the 2005 DARPA Grand Challenge and 2007 Urban Challenge and continues his interest in the complete automation of the automobile with particular interest in the autonomousTaxi concept and its potential to transform mass transit and deliver ubiquitous mobility to everyone.</p>
 	  	</div>
 	  </div>
 	 </div>
