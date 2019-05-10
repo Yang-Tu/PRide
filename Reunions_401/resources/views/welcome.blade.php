@@ -19,8 +19,8 @@
     <div class="carousel-item active">
 	  <img src="/Reunions_Splash/1.jpg" style = "opacity:.3;" width = 100% height = 500px>
 	  <div class="carousel-caption d-none d-md-block text-left" style= "color: #000000!important;">
-	    	<h2> This is slide 1 </h2>
-	    	<p>Random thoughts about something and space and time and other things that are relevant to this</p>
+	    	<h2> Match Handling</h2>
+	    	<p>Based on user preferences, our intelligent matching algorithm uses powerful data clustering and regression techniques to make sure you are satisfied with your matches..</p>
 	    	<p><a class="btn btn-lg btn-primary" href="#" role="button">Find out more</a></p>
 	  		</div>
 	</div>
@@ -28,16 +28,16 @@
     <div class="carousel-item">
       <img src="/Reunions_Splash/4.jpg" style = "opacity:.3;" width = 100% height = 500px>
 	  <div class="carousel-caption d-none d-md-block" style= "color: #000000!important;">
-	    	<h2> This is slide 2 </h2>
-	    	<p>Random thoughts about something and space and time and other things that are relevant to this</p>
+	    	<h2> Sure-Thing Guarantee </h2>
+	    	<p>We will cover all of our users out of pocket expenses and provide transportation guidance if they get stuck due to our errors.</p>
 	    	<p><a class="btn btn-lg btn-primary" href="#" role="button">Find out more</a></p>
 	  		</div>
     </div>
     <div class="carousel-item">
       <img src="/Reunions_Splash/5.jpg" style = "opacity:.3;" width = 100% height = 500px>
 	  <div class="carousel-caption d-none d-md-block text-right" style= "color: #000000!important;">
-	    	<h2> This is slide 3 </h2>
-	    	<p>Random thoughts about something and space and time and other things that are relevant to this</p>
+	    	<h2> Multidimensional Savings</h2>
+	    	<p>Not only is it cheaper for all travelers than alternatives, but  you also reduce CO2 emissions, traffic congestion, and meet new friends!</p>
 	    	<p><a class="btn btn-lg btn-primary" href="#" role="button">Find out more</a></p>
 	  		</div>
     </div>
