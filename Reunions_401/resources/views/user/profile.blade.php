@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('content')
+
+<div class = "navbar"
 <div class="container mt-5 mb-6 px-lg-5">
     <div class="row justify-content-center px-lg-5">
         <div class="col-md-8">
@@ -20,13 +22,13 @@
 
       <br>
       <p class = "para">
-    Name: {{$user['fname']}} {{$user['lname']}} <br><br>
-    Class Year: {{$user['class_year']}} <br>
-    Phone: {{$user['phone']}} <br>
-    Departure Date: {{$user['d_date']}} <br>
-    Departure Time: {{$user['d_time']}} <br>
-    Seats Available: {{$user['seats']}} <br>
-    Email: {{$user['email']}}<br>
+            Name: {{$user['fname']}} {{$user['lname']}} <br><br>
+            Class Year: {{$user['class_year']}} <br>
+            Phone: {{$user['phone']}} <br>
+            Departure Date: {{$user['d_date']}} <br>
+            Departure Time: {{$user['d_time']}} <br>
+            Seats Available: {{$user['seats']}} <br>
+            Email: {{$user['email']}}<br>
           <br>
 
           <br>
@@ -35,6 +37,13 @@
                   src="https://www.google.com/maps/embed/v1/directions?origin={{$user['zipcode']}}&destination=Princeton%20University&key=AIzaSyCa_nZFbiRNWjCrIMhdnSdNu-ouaOETZRA" allowfullscreen></iframe>
 
       </p><br>
+
+      <div class="card">
+            <div class="card-body">
+                          <h4 class="header-title">Map with dynamic Pie charts</h4>
+                <div id="mapamchart6"></div>
+                  </div>
+      </div>
 
 
    <a href="/">Return home</a>

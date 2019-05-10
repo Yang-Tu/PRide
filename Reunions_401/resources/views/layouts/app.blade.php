@@ -12,6 +12,8 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/maps.js') }}" defer></script>
+    <script src="{{ asset('js/pie-chart.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -36,16 +38,8 @@
  
           <!-- Authentication Links -->
            <ul class="navbar-nav ml-auto">
-             <li class="nav-item dropdown">
-            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                   Services <span class="caret"></span>
-                                </a>
-            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/carpool"> Carpool Connect</a>
-              <a class="dropdown-item" href="/rideshare"> Uber/Lyft Connect</a>
-              <a class="dropdown-item" href="/bus"> Party Bus Rental </a>
-              <a class="dropdown-item" href="/last-min"> Last Minute Matching </a>
-            </div>
+           <li class="nav-item ">
+             <a class="nav-link" href="/services">Services</a>
           </li>
 
           <li class="nav-item ">
@@ -80,14 +74,24 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                     <a class="dropdown-item" href="/user/{{ Auth::user()->id }}">
+                                
+                                        {{ __('User Page') }}
+                                    </a>
+                                    <a class="dropdown-item" href="/user/{{ Auth::user()->id }}">
+                                
+                                        {{ __('Notifications') }}
+                                    </a>
+
+
+                                    <a class="dropdown-item" href="/user/{{ Auth::user()->id }}">
+                                
+                                        {{ __('Settings') }}
+                                    </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
-                                    </a>
-                                     <a class="dropdown-item" href="/user/{{ Auth::user()->id }}">
-                                
-                                        {{ __('User Page') }}
                                     </a>
 
                                 </div>
@@ -112,7 +116,7 @@
         <div class= "footer">
 
             <p>© 2019-2019 HandyRides inc.</p> 
-            <p> Follow us! </p>
+              Follow us!
         </div>
 
  
