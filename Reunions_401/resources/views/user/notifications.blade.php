@@ -58,12 +58,17 @@
               <p style = "margin:30px!important; margin-top:20px!important;">You've matched with Alex!</p>
               <p><a class="btn btn-secondary" href="/about" role="button"> Find out more! </a> </p>
               <p><a class="btn btn-secondary" href="/success" role="button"> Yes! </a> </p>
-            </div>
+        </div>
+      </div>
+
+         <div class="container mt-5 mb-6 px-lg-5"">
               <br><br>
-              <div class = "col">
+              <div class = "row">
+                <div class = "col">
               <p><a class="btn btn-secondary" href="/fail" role="button"> I don't like any of these. </a> </p>
             </div>
-        </div>
+            </div>
+          </div>
 
 
         </p><br>
