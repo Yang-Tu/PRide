@@ -15,8 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('user/{id}', 'UserController@show');
-
 Route::get('/method', function () {
     return view('method');
 });
@@ -32,24 +30,12 @@ Route::get('/business', function () {
     return view('business');
 });
 
-Route::get('/carpool', function () {
-    return view('/services/carpool');
-});
-
-Route::get('/rideshare', function () {
-    return view('/services/rideshare');
-});
-
-Route::get('/bus', function () {
-    return view('/services/bus');
-});
-
-Route::get('/last-min', function () {
-    return view('/services/last-min');
+Route::get('/services', function () {
+    return view('services');
 });
 
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/user-page', 'HomeController@index')->name('home');
 Auth::routes();

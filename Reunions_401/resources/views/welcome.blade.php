@@ -61,26 +61,44 @@
     <div class="col mr-5">
       <img src = "/welcome/carpool.png" height = 170px>
       <br><h2> Carpool </h2>
-      <p> Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-secondary" href="/carpool" role="button">Let's ride! </a> </p>
+      <p style="margin:30px!important; margin-top:20px!important;"> Wanna ride in style? Cars are good. People are good too. Robots are bad.</p>
+      <p><a class="btn btn-secondary" href="/services#carpool" role="button">Let's ride! </a> </p>
     </div>
     <div class="col">
         <img src = "/welcome/uber.png" height = 170px>
         <br><h2> Uber/Lyft </h2>
-        <p> Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="/rideshare" role="button"> Let's connect! </a> </p>
+        <p style="margin:30px!important; margin-top:20px!important;">Coming from the airport? We've got you! We are so into ride-sharing here.</p>
+        <p><a class="btn btn-secondary" href="/services#rideshare" role="button"> Let's connect! </a> </p>
     </div>
     <div class="col ml-5">
       <img src = "/welcome/bus.png" height = 170px>
       <br><h2> Party Bus </h2>
-      <p> Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-secondary" href="/rideshare" role="button">Let's party! </a> </p>
+      <p style = "margin:30px!important; margin-top:20px!important;">Wanna ride in style? Reconnect with old friends? This is your chance!</p>
+      <p><a class="btn btn-secondary" href="/services#bus" role="button">Let's party! </a> </p>
     </div>
   </div>
 </div>
 
 <div class = "spacer">
-    <h2> Another Block of Things </h2>
+    <h2> Customer Testimonials </h2>
+</div>
+
+<div class="container-fluid">
+  <div class="row" style = "background-color: #e8e8e8; padding:30px!important; margin-bottom:10px!important">
+    <div class="col mr-5 ml-5"> <div class ="page_header_h3" style="margin:50px!important" >"Wow incredible, I love this so much. I liked Princeton before, but now I truly love it because I am <i>that</i> committed to ride-sharing. Now, we just gotta bring back the <a href = "https://www.pinterest.com/pin/62346776063085820/"> reusable beer tins </a>, and then we'll be good."</div>
+    <br><p style="text-align:right">Proud 2 Be Princeton<br>Texarkana, TX</p> </div>
+
+    <div class = "col mr-5 ml-5"> <div class ="page_header_h3" style="margin:50px!important">"Wow incredible, I love this so much. I liked Princeton before, but now I truly love it because I am <i>that</i> committed to ride-sharing. Now, we just gotta bring back the <a href = "https://www.pinterest.com/pin/62346776063085820/"> reusable beer tins </a>, and then we'll be good."</div>
+    <br><p style="text-align:right">Proud 2 Be Princeton<br>Texarkana, TX</p> </div>
+
+
+    <div class="row" style = "background-color: #e8e8e8; padding:30px!important;margin-top:10px!important" >
+      <div class = "col mr-5 ml-5"> <div class ="page_header_h3" style = "margin:50px!important">"Wow incredible, I love this so much. I liked Princeton before, but now I truly love it because I am <i>that</i> committed to ride-sharing. Now, we just gotta bring back the <a href = "https://www.pinterest.com/pin/62346776063085820/"> reusable beer tins </a>, and then we'll be good."</div>
+      <br><p style="text-align:right">Proud 2 Be Princeton<br>Texarkana, TX</p> </div>
+
+       <div class = "col mr-5 ml-5"> <div class ="page_header_h3" style="margin:50px!important">"Wow incredible, I love this so much. I liked Princeton before, but now I truly love it because I am <i>that</i> committed to ride-sharing. Now, we just gotta bring back the <a href = "https://www.pinterest.com/pin/62346776063085820/"> reusable beer tins </a>, and then we'll be good."</div>
+      <br><p style="text-align:right">Proud 2 Be Princeton<br>Texarkana, TX</p> </div>
+    </div>
 </div>
 
 
