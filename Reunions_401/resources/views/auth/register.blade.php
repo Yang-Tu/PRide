@@ -54,6 +54,24 @@
                         </div>
 
                         <div class="form-group row">
+                            <label for="pref_service" class="col-md-4 col-form-label text-md-right">{{ __('Preferred Form of Transport') }}</label>
+
+                            <div class="col-md-6">
+                                <select id="pref_service" type="text" class="form-control{{ $errors->has('pref_service') ? ' is-invalid' : '' }}" name="pref_service" value="{{ old('pref_service') }}" required autofocus>
+                                    <option value="rideshare" selected>Carpool</option>
+                                    <option value="uber">Uber/Lyft</option>
+                                    <option value="bus">Party Bus</option>
+                                </select>
+
+                                @if ($errors->has('pref_service'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('pref_service') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
                             <label for="phone" class="col-md-4 col-form-label text-md-right">{{ __('Phone XXXXXXXXXX') }}</label>
 
                             <div class="col-md-6">
@@ -213,24 +231,6 @@
 
                             <div class="col-md-6">
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="pref_service" class="col-md-4 col-form-label text-md-right">{{ __('Preferred Form of Transport') }}</label>
-
-                            <div class="col-md-6">
-                                <select id="pref_service" type="text" class="form-control{{ $errors->has('pref_service') ? ' is-invalid' : '' }}" name="pref_service" value="{{ old('pref_service') }}" required autofocus>
-                                    <option value="rideshare" selected>Carpool</option>
-                                    <option value="uber">Uber/Lyft</option>
-                                    <option value="uber">Party Bus</option>
-                                </select>
-
-                                @if ($errors->has('pref_service'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('pref_service') }}</strong>
-                                    </span>
-                                @endif
                             </div>
                         </div>
 
