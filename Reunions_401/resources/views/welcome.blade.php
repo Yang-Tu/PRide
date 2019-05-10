@@ -19,8 +19,8 @@
     <div class="carousel-item active">
 	  <img src="/Reunions_Splash/1.jpg" style = "opacity:.3;" width = 100% height = 500px>
 	  <div class="carousel-caption d-none d-md-block text-left" style= "color: #000000!important;">
-	    	<h2> This is slide 1 </h2>
-	    	<p>Random thoughts about something and space and time and other things that are relevant to this</p>
+	    	<h2> Personalized for you </h2>
+	    	<p>P-Ride is a platform exclusively accessible to registered attendees of Princeton Reunions. Users simply input key information about their travel plans into our encrypted database, and based on preferences we provide an optimal match for both legs of the trip, all while providing our “sure thing” guarantee in which we promise you will not get stranded. </p>
 	    	<p><a class="btn btn-lg btn-primary" href="#" role="button">Find out more</a></p>
 	  		</div>
 	</div>
@@ -28,7 +28,7 @@
     <div class="carousel-item">
       <img src="/Reunions_Splash/4.jpg" style = "opacity:.3;" width = 100% height = 500px>
 	  <div class="carousel-caption d-none d-md-block" style= "color: #000000!important;">
-	    	<h2> This is slide 2 </h2>
+	    	<h2> Environmentally Friendly </h2>
 	    	<p>Random thoughts about something and space and time and other things that are relevant to this</p>
 	    	<p><a class="btn btn-lg btn-primary" href="#" role="button">Find out more</a></p>
 	  		</div>
@@ -36,7 +36,7 @@
     <div class="carousel-item">
       <img src="/Reunions_Splash/5.jpg" style = "opacity:.3;" width = 100% height = 500px>
 	  <div class="carousel-caption d-none d-md-block text-right" style= "color: #000000!important;">
-	    	<h2> This is slide 3 </h2>
+	    	<h2> HandyRides Caress! </h2>
 	    	<p>Random thoughts about something and space and time and other things that are relevant to this</p>
 	    	<p><a class="btn btn-lg btn-primary" href="#" role="button">Find out more</a></p>
 	  		</div>
