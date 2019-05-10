@@ -6,7 +6,7 @@
 <body>
 	<div class = "page_header">
 		Our Approach
-  		<div class = "page_header_h3">Simple. Elegant. Successful.</div>
+  		<div class = "page_header_h3">Refined. Innovative. Deluxe. Elegant.</div>
 	</div>
 
 	<div class="container px-lg-5" style = "text-align:center">

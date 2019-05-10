@@ -43,6 +43,15 @@
        color:#69858c;
        text-align: center;
     }
+    .service-text {
+       left: 0;
+       bottom: 0;
+       width: 60%;
+       background-color: rgb(248,250,252);
+       color:#69858c;
+       text-align: center;
+       height: 170px;
+    }
 
     body {
         background-color: white;
