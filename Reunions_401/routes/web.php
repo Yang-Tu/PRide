@@ -35,7 +35,9 @@ Route::get('/services', function () {
 });
 
 
-Auth::routes();
 
+Auth::routes();
 Route::get('/user-page', 'HomeController@index')->name('home');
+Route::get('/notifications', 'HomeController@notifications')->name('home');
+Route::get('/settings', 'HomeController@settings')->name('home');
 Auth::routes();

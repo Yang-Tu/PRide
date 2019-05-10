@@ -27,6 +27,25 @@ class HomeController extends Controller
         $id = Auth::id();
 
         return view('user.profile', ['user' => User::findOrFail($id)]);
+
+    }
+
+    public function notifications()
+    {
+        $user = Auth::user();
+        $id = Auth::id();
+
+        return view('user.notifications', ['user' => User::findOrFail($id)]);
+
+    }
+
+    public function settings()
+    {
+        $user = Auth::user();
+        $id = Auth::id();
+
+        return view('user.settings', ['user' => User::findOrFail($id)]);
+
     }
 
     public function showLogin()

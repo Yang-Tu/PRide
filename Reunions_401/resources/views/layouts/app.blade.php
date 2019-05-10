@@ -47,8 +47,7 @@
           </li>
           
           <li class="nav-item dropdown">
-            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                   About <span class="caret"></span>
+            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre> About <span class="caret"></span>
                                 </a>
             <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="/team"> The Team </a>
@@ -74,17 +73,17 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                     <a class="dropdown-item" href="/user/{{ Auth::user()->id }}">
+                                     <a class="dropdown-item" href="/user-page">
                                 
                                         {{ __('User Page') }}
                                     </a>
-                                    <a class="dropdown-item" href="/user/{{ Auth::user()->id }}">
+                                    <a class="dropdown-item" href="/notifications">
                                 
                                         {{ __('Notifications') }}
                                     </a>
 
 
-                                    <a class="dropdown-item" href="/user/{{ Auth::user()->id }}">
+                                    <a class="dropdown-item" href="/settings">
                                 
                                         {{ __('Settings') }}
                                     </a>
@@ -115,7 +114,7 @@
         </center>
         <div class= "footer">
 
-            <p>© 2019-2019 HandyRides inc.</p> 
+            <p> © 2019-2019 HandyRides inc.</p> 
               Follow us!
         </div>
 
