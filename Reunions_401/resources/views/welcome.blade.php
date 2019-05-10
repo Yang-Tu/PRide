@@ -86,18 +86,18 @@
 <div class="container-fluid">
   <div class="row" style = "background-color: #e8e8e8; padding:30px!important; margin-bottom:10px!important">
     <div class="col mr-5 ml-5"> <div class ="page_header_h3" style="margin:50px!important" >"Wow incredible, I love this so much. I liked Princeton before, but now I truly love it because I am <i>that</i> committed to ride-sharing. Now, we just gotta bring back the <a href = "https://www.pinterest.com/pin/62346776063085820/"> reusable beer tins </a>, and then we'll be good."</div>
-    <br><p style="text-align:right">Proud 2 Be Princeton<br>Texarkana, TX</p> </div>
+    <br><p style="text-align:right">Nick<br>Texarkana, TX</p> </div>
 
-    <div class = "col mr-5 ml-5"> <div class ="page_header_h3" style="margin:50px!important">"Wow incredible, I love this so much. I liked Princeton before, but now I truly love it because I am <i>that</i> committed to ride-sharing. Now, we just gotta bring back the <a href = "https://www.pinterest.com/pin/62346776063085820/"> reusable beer tins </a>, and then we'll be good."</div>
-    <br><p style="text-align:right">Proud 2 Be Princeton<br>Texarkana, TX</p> </div>
+    <div class = "col mr-5 ml-5"> <div class ="page_header_h3" style="margin:50px!important">"Last year, I didn't make it to reunions, but this year, it was so easy to get there that I really had no excuse not to go."</div>
+    <br><p style="text-align:right">Chris<br>Farmington, CT</p> </div>
 
 
     <div class="row" style = "background-color: #e8e8e8; padding:30px!important;margin-top:10px!important" >
-      <div class = "col mr-5 ml-5"> <div class ="page_header_h3" style = "margin:50px!important">"Wow incredible, I love this so much. I liked Princeton before, but now I truly love it because I am <i>that</i> committed to ride-sharing. Now, we just gotta bring back the <a href = "https://www.pinterest.com/pin/62346776063085820/"> reusable beer tins </a>, and then we'll be good."</div>
-      <br><p style="text-align:right">Proud 2 Be Princeton<br>Texarkana, TX</p> </div>
+      <div class = "col mr-5 ml-5"> <div class ="page_header_h3" style = "margin:50px!important">"Honestly the best ride-sharing service I've seen. So easy to use I told my wife to pass the sweet and sour chicken.  WHEW!"</div>
+      <br><p style="text-align:right">Alain<br>Princeton, NJ</p> </div>
 
-       <div class = "col mr-5 ml-5"> <div class ="page_header_h3" style="margin:50px!important">"Wow incredible, I love this so much. I liked Princeton before, but now I truly love it because I am <i>that</i> committed to ride-sharing. Now, we just gotta bring back the <a href = "https://www.pinterest.com/pin/62346776063085820/"> reusable beer tins </a>, and then we'll be good."</div>
-      <br><p style="text-align:right">Proud 2 Be Princeton<br>Texarkana, TX</p> </div>
+       <div class = "col mr-5 ml-5"> <div class ="page_header_h3" style="margin:50px!important">"Elegant design and easy of access. The site looks great and I loved my matches!"</div>
+      <br><p style="text-align:right">Josh<br>New York, NY</p> </div>
     </div>
 </div>
 
