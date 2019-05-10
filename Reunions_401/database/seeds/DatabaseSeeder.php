@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
     {
 
 $faker = Faker::create();
-        foreach (range(1,10) as $index) {
+        foreach (range(1,5) as $index) {
             DB::table('users')->insert([
                 'fName' => $faker->name,
                 'lName' => $faker->name,
@@ -23,13 +23,13 @@ $faker = Faker::create();
                 'phone' => $faker->isbn10,
                 'email' => $faker->safeEmail,
                 'zipcode' => $faker->postcode,
-                'airport' => "JFK",
+                'airport' => "LGA",
                 'd_date' => "Thur",
                 'd_time' => $faker->time($format = 'H:i:s', $max = 'now'),
                 'seats' => $faker->numberBetween($min = 0, $max = 4),
-                'password' => $faker->md5
-                'pref_service' => "rideshare"
-                'eating_club' => "Cottage",
+                'password' => "password",
+                'pref_service' => "rideshare",
+                'eating_club' => "Ivy",
                 'updated_at' => now(),
                 'created_at' => now(),
 
