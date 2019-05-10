@@ -59,7 +59,7 @@ class RegisterController extends Controller
             'class_year' => ['required', 'integer', 'min:1920'],
             'phone' => ['required','integer', 'min: 1000000000', 'max:9999999999'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'zipcode' => ['required', 'integer', 'min:00000', 'max:99999'],
+            'zipcode' => ['required', 'string', 'min:5', 'max:5'],
             'airport' => ['required', 'string'], 
             'd_date' => ['required', 'string'], 
             'd_time'=>  ['required', 'string'], 

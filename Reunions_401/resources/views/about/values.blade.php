@@ -23,24 +23,24 @@
     		<div class="col-sm mr-5 ml-5">
     			<img src = "/temp/temp.png" height = 200px>
     			<h2> Responsibility </h2>
-    			<p> A key consideration at the top of our team's minds is the environmental impact of our process and product. That's why at the HandyRides office, we employ many state-of-the-art sustainability measures. Furthermore every car that is kept off the road on the way to an event significantly reduces the environmental impact of the event. We hold a strong conviction of responsibility to the environmental and to our users.</p>
+    			<p> A key consideration at the top of our team's minds is the environmental impact of our process and product. That's why at the HandyRides office, we employ many state-of-the-art sustainability measures.  We hold a strong conviction of responsibility to the environmental and to our users.</p>
     		</div>
        </div>
        <div class = "row" style = "padding:25px!important;">
        	<div class="col-sm ml-5 mr-5">
     			<img src = "/temp/temp.png" height = 200px>
     			<h2> Flexibility</h2>
-    			<p> Flexibity is a </p>
+    			<p> Flexibity is a critical part of what we do.  We provide flexibility in travel plans to our users and we integrate flexibility into our development process to personalize our product for each event.</p>
     		</div>
     		<div class="col-sm mr-5 ml-5">
     			<img src = "/temp/temp.png" height = 200px>
     			<h2> Innovation </h2>
-    			<p> Navbar togglers are left-aligned by default, but should they follow a sibling element like a .navbar-brand, they’ll automatically be aligned to the far right. Reversing your markup will reverse the placement of the toggler. Below are examples of different toggle styles. </p>
+    			<p> At HandyRides, we are dedicated to being the best ridesharing platform on the market.  We are constantly improving our proprietary algorithm to ensure that we remain a disruptive and top-of-the-line ridesharing service.</p>
     		</div>
     		<div class="col-sm mr-5 ml-5">
     			<img src = "/temp/temp.png" height = 200px>
     			<h2> Efficiency </h2>
-    			<p> Navbar togglers are left-aligned by default, but should they follow a sibling element like a .navbar-brand, they’ll automatically be aligned to the far right. Reversing your markup will reverse the placement of the toggler. Below are examples of different toggle styles. </p>
+    			<p> Efficiency is the name of the game - in the way we operate, in the way attendees users travel, and in the way our users interact with our platform.  We constantly reiterate on our product to make our website as easily to navigate as it is for our users to navigate to their event through our services.</p>
     		</div>
         </div>
 
