@@ -10,19 +10,20 @@
 	</div>
 	<br><br>
 		We've got a great team! <br>
-		<img src="/jokes/benji.jpg" height = 300 width = 150>
+		<img src="/icons/benji.png" height = 150 width = 150>
+		<img src="/icons/yang.png" height = 150 width = 150>
+		<img src="/icons/dee.png" height = 150 width = 150>
+		<img src="/icons/alex.png" height = 150 width = 150>
 
 	<br><br>
-		A wealth of knowledge and talent! <br>
-		<img src="/jokes/alex.jpg" height = 500 width = 300>
-		<img src="/jokes/alex3.PNG" height = 500 width = 300>
-		<img src="/jokes/alex5.JPG" height = 500 width = 300>
+		Hire us for wedding transportation!<br>
+		<img src="/icons/wedding.png" height = 300 width = 300>
 	<br><br>
-		Hire us for optimal solution! <br>
-		<img src = "/jokes/yang.jpg" height = 300 width = 180>
+		Hire us for the best birthday bash! <br>
+		<img src = "/icons/birthday.png" height = 300 width = 300>
 	<br><br>
-		Expertise at held in your hand<br>
-		<img src="/jokes/DD.jpg" height = 300 width = 300>
+		Expertise at held in your hand for your next bar mitzvah<br>
+		<img src="/icons/barmitzvah.png" height = 250 width = 300>
 	<br>
 </body>
 
