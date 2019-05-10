@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->integer('class_year');
             $table->integer('phone');
             $table->string('email');
-            $table->integer('zipcode');
+            $table->string('zipcode');
             $table->string('airport');
             $table->string('d_date');
             $table->time('d_time');

@@ -81,25 +81,12 @@
                                 @endif
                             </div>
                         </div>
-                        <div class="form-group row">
-                            <label for="zipcode" class="col-md-4 col-form-label text-md-right">{{ __('Origin Zipcode') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="zipcode" type="numeric" pattern = "[0-9]{5}"class="form-control{{ $errors->has('zipcode') ? ' is-invalid' : '' }}" name="zipcode" value="{{ old('zipcode') }}" required autofocus>
-
-                                @if ($errors->has('zipcode'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('zipcode') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
 
                         <div class="form-group row">
                             <label for="airport" class="col-md-4 col-form-label text-md-right">{{ __('Are you leaving from an airport?') }}</label>
 
                             <div class="col-md-6">
-                                <select id="airport" type="text" class="form-control{{ $errors->has('airport') ? ' is-invalid' : '' }}" name="airport" value="{{ old('airport') }}" required autofocus>
+                                <select id="airport" type="text" class="form-control{{ $errors->has('airport') ? ' is-invalid' : '' }}" name="airport" value="{{ old('airport') }}" required autofocus onChange="fillZipCode()">
                                     <option value="NO" selected>No</option>
                                     <option value="PHL">PHL</option>
                                     <option value="JFK">JFK</option>
@@ -110,6 +97,42 @@
                                 @if ($errors->has('airport'))
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $errors->first('airport') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+                        <!--- javascript to automatically fill in the zipcode upon user selecting an airport --->
+                        <script>
+                            function fillZipCode() {
+                                var airport = document.getElementById("airport").value;
+                                if (airport == "PHL") {
+                                    document.getElementById("zipcode").value = "19153";
+                                }
+                                else if (airport == "JFK") {
+                                    document.getElementById("zipcode").value = "11430";
+                                }
+                                else if (airport == "EWR") {
+                                    document.getElementById("zipcode").value = "07114";
+                                }
+                                else if (airport == "LGA") {
+                                    document.getElementById("zipcode").value = "11371";
+                                }
+                                else if (airport == "NO") {
+                                    document.getElementById("zipcode").value = "";
+                                }
+
+                            }
+                        </script>
+
+                        <div class="form-group row">
+                            <label for="zipcode" class="col-md-4 col-form-label text-md-right">{{ __('Origin Zipcode') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="zipcode" type="text" pattern = "[0-9]{5}"class="form-control{{ $errors->has('zipcode') ? ' is-invalid' : '' }}" name="zipcode" value="{{ old('zipcode') }}" required autofocus>
+
+                                @if ($errors->has('zipcode'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('zipcode') }}</strong>
                                     </span>
                                 @endif
                             </div>
