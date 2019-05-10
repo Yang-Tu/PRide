@@ -43,7 +43,7 @@
 		<div class="row px-lg-5 mt-5 mb-5 align-items-center"  style = "text-align:left">
 	  	<div class="col-12 col-sm-6 col-md-9 px-lg-5"><h2>Yang Tu</h2>
 	  		<h3>Chief Technology Officer</h3>
-	  		<p>Mr. Tu is currently the Chief Technology Officer. He is a junior in the Operations Research and Financial Engineering Department at Princeton University.</p>
+	  		<p>Mr. Tu is currently the Chief Technology Officer. He is a junior in the Operations Research and Financial Engineering Department at Princeton University with past experience in strategy and operations roles at a software based consultancy. He ignites passion for elegant and efficient solutions to everyday problems.</p>
 	  	</div>
 	  	<div class="col-6 col-md-3 px-lg-3"><img src = "/icons/yang.png" height = 150px></div>
 	  </div>
